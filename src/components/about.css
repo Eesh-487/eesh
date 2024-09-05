@@ -1,0 +1,43 @@
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.about-title {
+    text-align: center;
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-goals, .about-deliverables {
+    margin-bottom: 20px;
+}
+
+.about-goals h2, .about-deliverables h2 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about-goals ul, .about-deliverables ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-goals li, .about-deliverables li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
